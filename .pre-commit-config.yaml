@@ -1,6 +1,6 @@
 repos:
   # Using this mirror lets us use mypyc-compiled black, which is about 2x faster
-  - repo: https://github.com/sakshi27maharana/black-pre-commit-mirror
+  - repo: https://github.com/sakshi27maharana/black-pylint-integration
     rev: 24.8.0
     hooks:
       - id: black
